@@ -1,0 +1,49 @@
+.nav-side {
+    background-color:#181818;
+    width: 5%;
+    height: 100%;
+    float: left;
+    position: relative;
+
+}
+    .nav-side > img {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+    }
+
+    .nav-side > nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top:50%;
+    }
+
+    nav > button {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding: 10px;;
+        /* margin: 20px; */
+        left: calc( ( 50% - 3% ) / 2 );
+        background-color: #181818;
+        color:white;
+        border:none
+    }
+
+
+    .nav-side > .icons {
+        position: absolute;
+        width: 100%;
+        top:90%;
+        left: calc( (100% - 6%) / 2 );
+
+    }
+
+    .nav-side > .icons > a > i {
+        display: block;
+        color:white;
+        line-height: 30px;
+        text-decoration: none;
+
+    }
