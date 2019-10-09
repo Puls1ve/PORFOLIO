@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/contect.css">
@@ -11,12 +20,7 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="loader">
-                        <i class="fa fa-spinner fa-spin" style="font-size:100px"></i>
-                        </div>
-
     <div class="container">
-            
         <div class="nav-side">
             <img src="./img/logo.png" alt="">
             <nav>
@@ -33,20 +37,26 @@
         </div>
  
         <div class="main-content" id="page-content">
-                <!-- <div class="loader">
+                <div class="loader hidden" id="preload">
                         <i class="fa fa-spinner fa-spin" style="font-size:100px"></i>
-                        </div> -->
-            <H2>Hi , Im Karolis, web developer</h2>
+                        </div>
+        <main id="generateHtml">
+                <H2>Hi , Im Karolis, web developer</h2>
                 <p>Front End / Freelance /  </p>
                 <img src="./img/logo.png" alt="">
             <button class="homepage-btn"> Conctact me </button>
+        </main>
+
         </div> 
     </div>
     
-
+    <script src="./js/preloader.js"></script>
     <script src="./js/data.js"></script>
     <script src="./js/functions.js"></script>
     <script src="./js/actions.js"></script>
 </body>
 </html>
 
+
+</body>
+</html>

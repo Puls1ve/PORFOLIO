@@ -29,23 +29,14 @@ body * {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #222;
-    /* background: url(../img/chip.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    /* background-color: #222; */
 } 
 
 
-
-.loader.hidden {
-    animation: fadeOut 1s;
-    animation-fill-mode: forwards;
+.hidden {
+    display: none;
 }
 
-@keyframes fadeOut {
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
+.a {
+    display: none;
 }
